@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    color: rgb(45, 145, 83);
+    padding-bottom: 50px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px;
+}
+.nav{
+    position: fixed;
+    background-color: rgb(16, 16, 17);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.nav ul{
+    display: flex;
+    float: left;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    color: bisque;
+    float: left;
+    text-decoration:none;
+    transition: all 0.5s ease-in-out;
+    padding: 7px 15px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.nav a:hover{
+    color: brown;
+}
+.nav.active{
+    background-color: rgb(35, 189, 189);
+}
+.nav.active a {
+    color: black;
+    font-size:25px ;
+}
+.nav.active .container{
+    padding: 15px;
+}
+.sample{
+    margin-top: 100px;
+    margin-left: 40px;
+    background-image: url("unsplash.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.content h2{
+    font-size: 30px;
+    margin: 20px;
+    color: rgb(54, 16, 31);
+    font-size: 40px;
+    font-family: cursive;
+}
+.content p{
+    color:rgb(7, 176, 228);
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.logo{
+    color:red;
+    font-size: 40px;
+    font-family: cursive;
+
+}
